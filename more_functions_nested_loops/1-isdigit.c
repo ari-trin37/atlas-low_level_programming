@@ -2,7 +2,7 @@
 /**
  * _isdigit - this function returns zero.
  * c: this is the parameter.
- * 
+ *
  * Return: we want zero.
  */
 
