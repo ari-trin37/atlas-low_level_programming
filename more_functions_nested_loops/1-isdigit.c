@@ -5,7 +5,7 @@
  * 
  * Return: we want zero.
  */
-
+i
 int _isdigit(int c)
 {
 	if (c >= 48 && c <= 57)
