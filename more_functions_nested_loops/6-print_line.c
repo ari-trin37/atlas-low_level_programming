@@ -2,7 +2,7 @@
 
 /**
  * print_line - printed interesting line
- * @int n: global warming
+ * @n: global warming
  *
  * Return: bein' happy
  */
