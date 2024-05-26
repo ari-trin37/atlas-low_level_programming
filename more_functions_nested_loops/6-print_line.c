@@ -5,6 +5,7 @@
  * @int n: global warming
  *
  * Return: bein' happy
+ */
 void print_line(int n)
 {
 	int i;
