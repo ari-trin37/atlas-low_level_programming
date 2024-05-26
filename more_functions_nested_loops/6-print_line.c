@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * print_line - printed interesting line
+ * @int n: global warming
+ *
+ * Return: bein' happy
 void print_line(int n)
 {
 	int i;
