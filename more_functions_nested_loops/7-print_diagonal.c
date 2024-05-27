@@ -18,15 +18,10 @@ for(x = 0; x > i; x++)
 {
 _putchar(' ');
 }
-
-{
 _putchar('\\');
 _putchar('\n');
 }
-
 }
-
-
 else
 {
 _putchar('\n');
