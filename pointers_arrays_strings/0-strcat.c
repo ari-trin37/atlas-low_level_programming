@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strcat : function name
+ * _strcat - function name
  * @dest: first para
  * @src: second para
  *
