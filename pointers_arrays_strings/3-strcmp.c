@@ -19,9 +19,9 @@ int _strcmp(char *s1, char *s2)
 		}
 		y++;
 	}
-	if (s2[i + 1] != '\0')
+	if (s2[y + 1] != '\0')
 		{
-			return = 1;
+			return(1);
 		}		else {
 
 			return (0);
