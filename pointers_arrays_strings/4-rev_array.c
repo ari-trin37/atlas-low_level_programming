@@ -9,4 +9,11 @@
 
 void reverse_array(int *a, int n)
 {
-	int
+	while(i = 0;
+
+
+
+
+
+
+		Return: void

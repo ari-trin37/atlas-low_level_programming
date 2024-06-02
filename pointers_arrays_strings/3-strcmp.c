@@ -11,18 +11,20 @@ int _strcmp(char *s1, char *s2)
 {
 	int y = 0;
 
-	for (y = 0; s1[y]!= '\0' && s2[y]!= '\0'; y++)
-		if (s1[y] != s2[y]) {
-			result = s1[y] - s2[y];
-			break;
+	while (s1[y] != null)
+	{
+		if (s1[y] != s2[y])
+		{
+			return(0);
 		}
-		if (s1[y] == '\0' && s2[y] != '\0') {
-			result = -1;
-		} else if (s1[y] != '\0' && s2[y] == '\0') {
-			result = 1;
+		y++
+	}
+		if (s2[i + 1] != '\0')
+		{
+			return = 1;
 		}
+			else {
 
-		return result; >= 0
+			return (0);
+		}
 }
-
-
