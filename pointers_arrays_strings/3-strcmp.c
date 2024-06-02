@@ -11,7 +11,7 @@ int _strcmp(char *s1, char *s2)
 {
 	int y = 0;
 
-	for (y = 0; s1[y] != '\0' && s2[y] != '\0'; y++)
+	for (y = 0; s1[y]!= '\0' && s2[y]!= '\0'; y++)
 		if (s1[y] != s2[y]) {
 			result = s1[y] - s2[y];
 			break;
@@ -22,7 +22,7 @@ int _strcmp(char *s1, char *s2)
 			result = 1;
 		}
 
-		return result;
+		return result; >= 0
 }
 
 
