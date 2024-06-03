@@ -6,7 +6,7 @@
  * Return: nothing
  */
 
-char *string_toupper(char *)
+char *string_toupper(char)
 {
     if (;char >= 'a' && char <= 'z') 
 	{
