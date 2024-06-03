@@ -6,7 +6,7 @@
  * Return: nothing
  */
 
-char *string_toupper(char ch)
+char *string_toupper(char *)
 {
     if (ch >= 'a' && ch <= 'z') {
         return ch - ('a' - 'A');
