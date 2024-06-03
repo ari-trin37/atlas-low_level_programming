@@ -6,7 +6,7 @@
  * Return: nothing
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *str)
 { 
 	char a = 0
 	char z = 0
