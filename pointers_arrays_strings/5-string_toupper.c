@@ -10,7 +10,7 @@ char *string_toupper(char *str)
 {
 	char *orig = str;
 	while (*str) 
-	{	*str = toupper((unsigned char)*str);
+	{	*str = string_toupper((unsigned char)*str);
 		str++;
 }	return orig;
 
