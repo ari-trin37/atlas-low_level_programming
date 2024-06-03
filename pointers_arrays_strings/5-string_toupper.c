@@ -8,8 +8,8 @@
 
 char *string_toupper(char *)
 {
-    if (ch >= 'a' && ch <= 'z') {
-        return ch - ('a' - 'A');
+    if (char >= 'a' && char <= 'z') {
+        return char - ('a' - 'A');
     }
-    return ch;
+    return char;
 }
