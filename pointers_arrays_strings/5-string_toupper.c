@@ -1,17 +1,15 @@
 #include "main.h"
 /**
- * string_toupper - function
- * char * : parameter
+ * string_toupper - function name
+ * @char * - para one
  *
- * Return : changing lowercase letters of string to uppercase.
+ * Return: nothing
  */
 
-char *string_toupper(char *str)
+char *string_toupper(char ch)
 {
-	char *orig = str;
-	while (*str) 
-	{	*str = string_toupper((unsigned char)*str);
-		str++;
-}	return orig;
-
+    if (ch >= 'a' && ch <= 'z') {
+        return ch - ('a' - 'A');
+    }
+    return ch;
 }
