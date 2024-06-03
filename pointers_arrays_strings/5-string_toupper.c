@@ -6,7 +6,7 @@
  * Return : changing lowercase letters of string to uppercase.
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
 	char *orig = str;
 	while (*str) 
