@@ -6,7 +6,7 @@
  * Return: nothing
  */
 
- char *cap_string(char *) {
+ char *cap_string(char *str) {
     int capitalize_next = 1;
     int  i;
 
