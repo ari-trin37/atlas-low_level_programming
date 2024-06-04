@@ -7,7 +7,7 @@
  */
 
 char *string_toupper(char *s)
-{ 
+{
 	int i;
 	i = 0;
 
