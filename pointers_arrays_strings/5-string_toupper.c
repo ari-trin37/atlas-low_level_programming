@@ -2,7 +2,7 @@
 /**
  * string_toupper - function name
  * @char * - para one
- *
+ * @s: created new variable
  * Return: nothing
  */
 
