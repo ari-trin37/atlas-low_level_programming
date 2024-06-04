@@ -9,7 +9,7 @@
 char *leet(char *s) {
     char *str = s;
     char *letters = "aeotlAEOTL";
-    char *replacements = "43070143070";
+    char *replacements = "43070143071";
     
     int i, j;
 
