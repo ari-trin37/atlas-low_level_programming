@@ -4,7 +4,6 @@
  * @dest: desination, returning a pointer.
  * @src: char source
  * @n: number 3
- *
  * Return: returns pointer to memory area s.
  */
 
