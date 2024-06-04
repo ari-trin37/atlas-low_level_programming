@@ -8,5 +8,5 @@
  * Return: returns pointer to memory area s.
  */
 
- 
+ char *_memcpy(char *dest, char *src, unsigned int n)
 
