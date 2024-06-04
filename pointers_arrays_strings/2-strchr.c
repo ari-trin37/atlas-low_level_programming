@@ -15,6 +15,5 @@
         }
         s++;
     }
-    return NULL;
+    return s;
 }
-
