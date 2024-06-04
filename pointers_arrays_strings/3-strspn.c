@@ -4,7 +4,7 @@
  * @s: para one
  * @b: para two
  * @n: para three
- * 
+ *
  * Return: returns pointer to memory area s.
  */
 
