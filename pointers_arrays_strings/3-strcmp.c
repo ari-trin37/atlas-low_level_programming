@@ -3,6 +3,7 @@
  * _strcmp - compares two strings
  * @s1 : para one
  * @s2 : para two
+ * @_strcmp : fixed problem, HA!
  *
  * Return : can be less than, greater than, or equal to.
  */
