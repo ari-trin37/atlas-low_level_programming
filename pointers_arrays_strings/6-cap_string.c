@@ -15,5 +15,13 @@
             str[i] = toupper((unsigned char)str[i]);
             capitalize_next = 0; 
 } 
-            return str; 
+if (str[i] == ' ' || str[i] == '\t' || str[i] == '\n' ||
+            str[i] == ',' || str[i] == ';' || str[i] == '.' ||
+            str[i] == '!' || str[i] == '?' || str[i] == '"' ||
+            str[i] == '(' || str[i] == ')' || str[i] == '{' ||
+            str[i] == '}') {
+            capitalize_next = 1;
+} 
+} 
+                return str; 
 }   
