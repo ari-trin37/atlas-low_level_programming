@@ -14,8 +14,8 @@ char *original_dest = dest;
 
 
     while (n--)
-        *dest++ = *src++;
+    *dest++ = *src++;
     
 
-    return original_dest;
+return (original_dest);
 }
