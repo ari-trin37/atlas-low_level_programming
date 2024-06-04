@@ -8,14 +8,14 @@
  * Return: returns pointer to memory area s.
  */
 
- char *_memcpy(char *dest, char *src, unsigned int n)
- {
- char *original_dest = dest;
+char *_memcpy(char *dest, char *src, unsigned int n)
+{
+char *original_dest = dest;
 
 
-    while (n--) {
+    while (n--)
         *dest++ = *src++;
-    }
+    
 
     return original_dest;
 }
