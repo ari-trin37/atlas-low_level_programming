@@ -4,7 +4,7 @@
  * @dest: desination, returning a pointer.
  * @src: char source
  * @n: number 3
- * 
+ *
  * Return: returns pointer to memory area s.
  */
 
@@ -14,7 +14,7 @@ char *original_dest = dest;
 
 
 while (n--)
-    *dest++ = *src++;
+*dest++ = *src++;
 
 return (original_dest);
 }
