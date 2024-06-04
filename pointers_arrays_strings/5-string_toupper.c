@@ -6,10 +6,9 @@
  * Return: nothing
  */
 
-char *string_toupper(char *s, int i)
+char *string_toupper(char *s)
 { 
-	int s;
-	s = 0;
+	int = i;
 	i = 0;
 
     while (s[i] != '\0') {
