@@ -2,7 +2,7 @@
 /**
 * fizz_buzz - fizzin and buzzin
 */
-int main(void)
+fizz buzz int main(void)
 {
     int x;
     for (x = 1; x <= 100; x++)
