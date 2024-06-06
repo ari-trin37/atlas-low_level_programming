@@ -7,7 +7,8 @@ include "main.h"
  */
 
 int _abs(int x)
-{ 
-	int x;
-
-	for (
+{
+	if (x < 0)
+		x = x * -1; 
+	return (x);
+}	     
