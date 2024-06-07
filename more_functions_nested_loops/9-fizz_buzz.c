@@ -34,11 +34,6 @@ printf(" ");
 }
 putchar('\n');
 }
-/**
- * fizz_buzz - fizzing and buzzing
- *@void: is int
- *
- */
 int main(void)
 {
 fizz_buzz();
