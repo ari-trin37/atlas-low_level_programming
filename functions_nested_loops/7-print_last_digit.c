@@ -4,7 +4,9 @@
  * @x: new variable
  *
  * Return: returns value of last digit
- */int print_last_digit(int num)
+ */
+int print_last_digit(int num)
+
 {
 num = (num % 10);
 if (num >= 0)
