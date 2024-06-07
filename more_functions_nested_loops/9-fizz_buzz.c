@@ -4,7 +4,7 @@
 /**
  * fizz_buzz - fizzing and buzzing
  */
-int main(void)
+void fizz_buzz(void)
 {
     int x;
     for (x = 1; x <= 100; x++)
@@ -28,5 +28,10 @@ int main(void)
     }
 
     putchar('\n');
-    return (0);
+}
+
+int main(void)
+{
+    fizz_buzz();
+    return 0;
 }
