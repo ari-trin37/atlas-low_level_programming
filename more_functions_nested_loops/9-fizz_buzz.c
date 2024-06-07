@@ -6,7 +6,7 @@
  *@void: is int
  *@void: main
  */
- void fizz_buzz(void)
+void fizz_buzz(void)
 {
 int x;
 for (x = 1; x <= 100; x++)
