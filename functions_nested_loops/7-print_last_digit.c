@@ -6,8 +6,8 @@
  * Return : returns value of last digit 
  */
 
-int print_last_digit(int x)
-{
-	int x;
-	
-	for (
+int print_last_digit(int num) {
+    
+    int last_digit = num >= 0 ? num % 10 : -((-num) % 10);
+    printf("%d", last_digit);
+    return last_digit;
