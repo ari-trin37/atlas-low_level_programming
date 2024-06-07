@@ -4,7 +4,7 @@
 /**
  * fizz_buzz - fizzing and buzzing
  *@void: is int
- *@main: main
+ *
  */
 void fizz_buzz(void)
 {
