@@ -34,3 +34,8 @@ printf(" ");
 }
 putchar('\n');
 }
+int main(void)
+{
+fizz_buzz();
+return (0);
+}
