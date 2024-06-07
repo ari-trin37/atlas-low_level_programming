@@ -3,6 +3,7 @@
 
 /**
  * fizz_buzz - fizzing and buzzing
+ *@x: is int
  */
 void fizz_buzz(void)
 {
