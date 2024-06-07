@@ -5,8 +5,7 @@
  * fizz_buzz - fizzing and buzzing
  *@void: is int
  *
- */
-void fizz_buzz(void)
+ */void fizz_buzz(void)
 {
 int x;
 for (x = 1; x <= 100; x++)
