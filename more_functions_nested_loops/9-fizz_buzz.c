@@ -39,7 +39,6 @@ putchar('\n');
  *@void: is int
  *
  */
- 
 int main(void)
 {
 fizz_buzz();
