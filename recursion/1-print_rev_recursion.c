@@ -5,9 +5,8 @@
 * return: returning a string in reverse.
 *
 */
-
 void _print_rev_recursion(char *s)
-{ 
+{
     if (*s == '\0')
     {
         ;
