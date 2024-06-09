@@ -14,3 +14,6 @@ int _strlen_recursion(char *s)
 		return 1 + _strlen_recursion(s + 1);
 
 }
+
+/* testing note option */
+/* gcc -Wall -pedantic -Werror -Wextra -std=gnu89  2-main.c 2-*/
