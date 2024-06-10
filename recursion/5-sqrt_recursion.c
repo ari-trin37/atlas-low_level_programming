@@ -2,13 +2,12 @@
 /**
 * _lumi_light - new function created.
 * @val: created new variable for 2nd prototype.
-*
+* @n: our first variable. sq root calculated from here.
 * Return: returning the length of a string
 */
 
-int _lumi_light(int val)
+int _lumi_light(int val, int n)
 {
-	int n;
 	if (n == val * val)
 		return (val);
 	else if (val > n)
