@@ -21,5 +21,3 @@ int _lumi_light(int val, int n)
 			return (-1);
 			return _lumi_light(val + 1, n)
 	}
-}
-
