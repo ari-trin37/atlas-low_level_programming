@@ -6,8 +6,9 @@
 * Return: returning the length of a string
 */
 
-int _lumi_light(int val, int n)
+int _lumi_light(int val)
 {
+	int n;
 	if (n == val * val)
 		return (val);
 	else if (val > n)
