@@ -10,6 +10,7 @@ int _sqrt_recursion(int n)
 { 
 	int val = 1;
 	return (_lumi_light (val, n));
+}
 
 int _lumi_light(int val, int n)
 	{
