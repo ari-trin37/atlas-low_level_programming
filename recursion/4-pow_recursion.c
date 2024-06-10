@@ -1,5 +1,5 @@
 #include "main.h"
-/**
+\**
 * _pow_recursion - fucntion name / returning length of string.
 * @x: variable 1. includes a pointer. string - calculating length.
 * @y: varibale 2.
