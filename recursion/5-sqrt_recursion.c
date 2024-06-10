@@ -14,10 +14,11 @@ int _sqrt_recursion(int n)
 
 int _lumi_light(int val, int n)
 	{
+		int _lumi_light; 
 		if (n == val * val)
 			return (val);
 
 		else if (val > n)
 			return (-1);
-			return _lumi_light(val + 1, n)
+			return _lumi_light(val + 1, n);
 	}
