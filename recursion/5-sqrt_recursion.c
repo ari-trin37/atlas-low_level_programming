@@ -15,7 +15,7 @@ int _lumi_light(int val, int n)
 	else if (val > n)
 		return (-1);
 
-	return(_lumi_light(val + 1, n));
+	return (_lumi_light(val + 1, n));
 }
 int _sqrt_recursion(int n)
 {
