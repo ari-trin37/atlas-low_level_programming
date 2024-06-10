@@ -17,6 +17,14 @@ int _lumi_light(int val, int n)
 
 	return (_lumi_light(val + 1, n));
 }
+
+/**
+* _sqrt_recursion - function name given.
+* @n: our variable / where the sq. root will be calculated
+*
+* Return: either n or -1 
+*/
+
 int _sqrt_recursion(int n)
 {
 		int val = 1;
