@@ -5,7 +5,7 @@
 * @x: our first variable
 * @y: second varable.
 *
-* return: printing string.
+* Return: printing string.
 */
 
 int _pow_recursion(int x, int y)
