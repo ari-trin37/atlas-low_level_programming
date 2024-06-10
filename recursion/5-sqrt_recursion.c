@@ -2,8 +2,8 @@
 /**
 * _sqrt_recursion - function name / returning length of string.
 * _lumi_light - new function created.
-* @s: variable given, includes a pointer. string - calculating length.
-* @n: created new variable for 2nd prototype.
+* @n: variable given, includes a pointer. string - calculating length.
+* @val: created new variable for 2nd prototype.
 *
 * Return: returning the length of a string
 */
