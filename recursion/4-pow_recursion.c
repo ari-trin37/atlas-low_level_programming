@@ -5,6 +5,7 @@
 * @y: varibale 2.
 *
 * return : returns value of x raised to the power of 5.
+*/
 
 int _pow_recursion(int x, int y)
 {
@@ -20,11 +21,6 @@ int _pow_recursion(int x, int y)
 
 
 
-
-
-
-
-}
 
 
 
