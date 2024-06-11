@@ -1,12 +1,12 @@
-#include "main.h"
+#include <unistd.h>
 
 /**
- * main - print _putchar but WITH _putchar
+ * main - print _putchar but with _putchar
+ *
  * Return: 0
  */
 
-int main(void)
-
+int _putchar(char c)
 {
 	_putchar('_');
 	_putchar('p');
