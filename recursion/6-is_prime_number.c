@@ -11,7 +11,7 @@
 **/
 int is_prime_number(int n)
 
-{
+
 	int i; 
 
 	for (i = 1; i * i <= n; i++)
@@ -27,6 +27,5 @@ int is_prime_number(int n)
 		}
 	}
 	return(0);
-	}
 
-}
+	}
