@@ -9,6 +9,7 @@
 char *_strdup(char *str)
 {
 	char i = length
+	length = sizeof(my_array)
 	char x;
 
 	if (str == NULL) /** null-terminated string? **/
