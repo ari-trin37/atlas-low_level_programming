@@ -17,12 +17,12 @@ char *_strdup(char *str)
 		return(NULL); 
 	}
 
-	while (char[length] != '\0') /* calculating length of string */
+	while (*char[length] != '\0') /* calculating length of string */
 	{
 		 length++;
 	}
-	
-	char x *duplicate = malloc((length + 1) * sizeof(char)); 
+
+	*char duplicate = malloc((length + 1) * sizeof(char)); 
 	/* allocate memory 4 duplicate string */
 
 	if (duplicate == NULL)
