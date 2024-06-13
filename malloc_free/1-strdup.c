@@ -14,6 +14,7 @@ char *_strdup(char *str)
 	}
 
 	int length = 0;
+	int y;
 
 	while (str[length] != '\0') /* calculating length of string */
 	{
@@ -29,7 +30,7 @@ char *_strdup(char *str)
 	}
 	/* check to see possible mem-alloc failed */
 
-	for (int y = 0; y <= length; y++)
+	for (y = 0; y <= length; y++)
 	{
 		duplicate[y] = str[y]; 
 	}
