@@ -16,7 +16,7 @@ char *_strdup(char *str)
 		return(NULL); 
 	}
 
-	while (char *[length] != '\0') /* calculating length of string */
+	while (*char[length] != '\0') /* calculating length of string */
 	{
 		 length++;
 	}
