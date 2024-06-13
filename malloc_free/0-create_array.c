@@ -8,8 +8,9 @@
  **/
 
 char *create_array(unsigned int size, char c)
-
-int size = z
-int c;
-
+{
+	if (size == 0)
+	{ 
+		return(NULL);
+	}
 
