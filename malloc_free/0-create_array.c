@@ -3,35 +3,37 @@
  * create_array - creating array w/ malloc
  * @size: 1st para.
  * @c: 2nd para/variable/
- * 
+ *
  * Return: NULL if size is 0, or returns pointer to array.
  **/
 
 char *create_array(unsigned int size, char c)
 {
 	if (size == 0)
-	{ 
-		return(NULL);
+	{
+		return (NULL);
 	}
 
 	char *array = malloc(size * sizeof(char));
+
 	if (array == NULL)
 	{
-		return(NULL);
+		return (NULL);
 	}
 
 	{
 		unsigned int x;
+
 		for (x = 0; x < size; x++)
 		{
 			array[x] = c;
 		}
+
 	}
 
 	return(array);
 }
 
-/*
 void simple_print_buffer(char *buffer, unsigned int size)
 {
     unsigned int i;
@@ -68,4 +70,3 @@ int main(void)
     free(buffer);
     return (0);
 }
-*/
