@@ -13,7 +13,6 @@ char *_strdup(char *str)
 		return(NULL); 
 	}
 
-	int length;
 	char *duplicate;
 	char y;
 
