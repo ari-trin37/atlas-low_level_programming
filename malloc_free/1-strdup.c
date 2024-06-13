@@ -8,6 +8,10 @@
 
 char *_strdup(char *str)
 {
+	char length = 0;
+	char y;
+	char *duplicate;
+
 	if (str == NULL) /** null-terminated string? **/
 	{
 		return(NULL); 
