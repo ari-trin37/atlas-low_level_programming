@@ -8,14 +8,15 @@
 
 char *_strdup(char *str)
 {
-	char i = length
-	length = sizeof(my_array)
 	char x;
 
 	if (str == NULL) /** null-terminated string? **/
 	{
 		return(NULL); 
 	}
+
+	char i = length
+	length = sizeof(my_array)
 
 	while (*char[i] != '\0') /* calculating length of string */
 	{
