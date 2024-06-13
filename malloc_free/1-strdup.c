@@ -13,8 +13,8 @@ char *_strdup(char *str)
 		return(NULL); 
 	}
 
-	int length = 0;
-	int y;
+	char length = 0;
+	char y;
 
 	while (str[length] != '\0') /* calculating length of string */
 	{
