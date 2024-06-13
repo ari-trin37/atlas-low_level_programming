@@ -21,7 +21,7 @@ char *_strdup(char *str)
 		 length++;
 	}
 
-	duplicate = duplicate
+	duplicate = x;
 
 	duplicate = malloc((length + 1) * sizeof(char)); 
 	/* allocate memory 4 duplicate string */
@@ -34,7 +34,7 @@ char *_strdup(char *str)
 
 	for (y = 0; y <= length; y++)
 	{
-		duplicate[char] = str[y]; 
+		duplicate char = str[y]; 
 	}
 	/* copy string to new all-mem */
 	return(duplicate);
