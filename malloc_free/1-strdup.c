@@ -10,7 +10,6 @@ char *_strdup(char *str)
 {
 	char length;
 	char y;
-	char *duplicate;
 
 	if (str == NULL) /** null-terminated string? **/
 	{
@@ -33,7 +32,7 @@ char *_strdup(char *str)
 
 	for (y = 0; y <= length; y++)
 	{
-		duplicate[y] = str[y]; 
+		duplicate[char] = str[y]; 
 	}
 	/* copy string to new all-mem */
 	return(duplicate);
