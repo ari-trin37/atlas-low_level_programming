@@ -8,8 +8,7 @@
 
 char *_strdup(char *str)
 {
-	char length;
-	char y;
+	char i = length
 	char x;
 
 	if (str == NULL) /** null-terminated string? **/
@@ -17,7 +16,7 @@ char *_strdup(char *str)
 		return(NULL); 
 	}
 
-	while (*char[length] != '\0') /* calculating length of string */
+	while (*char[i] != '\0') /* calculating length of string */
 	{
 		 length++;
 	}
