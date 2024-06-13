@@ -8,6 +8,31 @@
 
 char *_strdup(char *str)
 {
-	example
+	if (str == NULL) /** null-terminated string? **/
+	{
+		return(NULL); 
+	}
+
+	int length = 0;
+
+	while (str[length] != '\0') /* calculating length of string */
+	{
+		 length++;
+	}
+
+	char *duplicate = malloc((length + 1) * sizeof(char)); 
+	/* allocate memory 4 duplicate string */
+
+	if (duplicate == NULL)
+	{
+		return(NULL);
+	}
+	/* check to see possible mem-alloc failed */
+
+	for (int y = 0; y <= length; y++)
+	{
+		duplicate[y] = str[y]; 
+	}
+	/* copy string to new all-mem */
+	return(duplicate);
 }
-	return(0);
