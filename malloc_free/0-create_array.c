@@ -7,7 +7,7 @@
  * Return: NULL if size is 0, or returns pointer to array.
  **/
 
-/*
+
 char *create_array(unsigned int size, char c)
 {
 	if (size == 0)
@@ -35,6 +35,7 @@ char *create_array(unsigned int size, char c)
 	return(array);
 }
 
+/*
 void simple_print_buffer(char *buffer, unsigned int size)
 {
     unsigned int i;
