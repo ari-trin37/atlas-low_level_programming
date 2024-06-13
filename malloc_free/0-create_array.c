@@ -31,6 +31,7 @@ char *create_array(unsigned int size, char c)
 	return(array);
 }
 
+/*
 void simple_print_buffer(char *buffer, unsigned int size)
 {
     unsigned int i;
@@ -67,3 +68,4 @@ int main(void)
     free(buffer);
     return (0);
 }
+*/
