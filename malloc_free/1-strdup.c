@@ -21,7 +21,7 @@ char *_strdup(char *str)
 		 length++;
 	}
 
-	char *duplicate = malloc((length + 1) * sizeof(char)); 
+	duplicate = malloc((length + 1) * sizeof(char)); 
 	/* allocate memory 4 duplicate string */
 
 	if (duplicate == NULL)
