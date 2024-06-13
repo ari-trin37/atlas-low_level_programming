@@ -10,12 +10,15 @@
 
 char *create_array(unsigned int size, char c)
 {
+	unsigned int x;
+	char *array = NULL; /* declare here to not mix declares and code */
+
 	if (size == 0)
 	{
 		return (NULL);
 	}
 
-	char *array = malloc(size * sizeof(char));
+	array = malloc(size * sizeof(char)); /* initialize after size check */
 
 	if (array == NULL)
 	{
@@ -23,7 +26,6 @@ char *create_array(unsigned int size, char c)
 	}
 
 	{
-		unsigned int x;
 
 		for (x = 0; x < size; x++)
 		{
