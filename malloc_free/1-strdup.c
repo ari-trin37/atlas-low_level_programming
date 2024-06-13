@@ -13,7 +13,7 @@ char *_strdup(char *str)
 		return(NULL); 
 	}
 
-	unsigned int length = 0
+	unsigned int length;
 	char *duplicate;
 	char y;
 
