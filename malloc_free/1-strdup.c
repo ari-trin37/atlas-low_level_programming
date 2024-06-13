@@ -8,8 +8,6 @@
 
 char *_strdup(char *str)
 {
-	char x;
-
 	if (str == NULL) /** null-terminated string? **/
 	{
 		return(NULL); 
@@ -31,6 +29,8 @@ char *_strdup(char *str)
 		return(NULL);
 	}
 	/* check to see possible mem-alloc failed */
+
+	char y;
 
 	for (y = 0; y <= i; y++)
 	{
