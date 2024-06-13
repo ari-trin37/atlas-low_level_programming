@@ -7,3 +7,7 @@
  **/
 
 char *_strdup(char *str)
+{
+	example
+}
+	return(0);
