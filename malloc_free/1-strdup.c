@@ -14,7 +14,6 @@ char *_strdup(char *str)
 	}
 
 	char i = length
-	length = sizeof(my_array)
 
 	while (*char[i] != '\0') /* calculating length of string */
 	{
