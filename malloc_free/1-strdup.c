@@ -13,8 +13,6 @@ char *_strdup(char *str)
 		return(NULL); 
 	}
 
-	char i = length
-
 	while (*char[length] != '\0') /* calculating length of string */
 	{
 		 length++;
@@ -30,6 +28,7 @@ char *_strdup(char *str)
 	/* check to see possible mem-alloc failed */
 
 	char y;
+	char i;
 
 	for (y = 0; y <= i; y++)
 	{
