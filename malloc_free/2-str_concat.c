@@ -56,5 +56,5 @@ char *str_concat(char *s1, char *s2) /*initialized & declared*/
 		result[i + j] = '\0';
 	}
 
-	return(result); /* needs to return null, null-termination */
+	return (result); /* needs to return null, null-termination */
 }
