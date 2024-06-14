@@ -31,7 +31,7 @@ char *_strdup(char *str)
 	}
 	/* check to see possible mem-alloc failed */
 
-	for (char = 0; char <= length; i++)
+	for (i = 0; i <= length; i++)
 	{
 		duplicate[char] = str[char]; 
 	}
