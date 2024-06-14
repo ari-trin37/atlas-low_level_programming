@@ -12,6 +12,7 @@ char *str_concat(char *s1, char *s2) /*initialized & declared*/
 {
 	int len_s1 = 0;
 	int len_s2 = 0;
+	char *result = NULL;
 	int i;
 	int x;
 
@@ -35,7 +36,7 @@ char *str_concat(char *s1, char *s2) /*initialized & declared*/
 		len_s2++;
 	}
 
-	char *result = (char *)malloc((len_s1 + len_s2 + 1) * sizeof(char));
+	result = malloc((len_s1 + len_s2 + 1) * sizeof(char));
 	if (result == NULL)
 	{
 		return(NULL); /* if failed, returns NULL */
