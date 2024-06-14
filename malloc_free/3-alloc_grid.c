@@ -9,17 +9,16 @@
 
 int **alloc_grid(int width, int height)
 {
+	int **grid;
 	int x;
 	int z;
-	int i;
 
 	if (width <= 0 || height <= 0)
 		{
-			return(NULL;)
+			return(NULL);
 		}
 
-
-	int **grid = (int **)malloc(height * sizeof(int *));
+	grid = (int **)malloc(height * sizeof(int *));
 	if (!grid)
 		{
 			return(NULL); /* "check" to see if mem. allocation failed */	
