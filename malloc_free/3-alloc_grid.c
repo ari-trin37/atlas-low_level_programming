@@ -34,11 +34,14 @@ int **alloc_grid(int width, int height);
 				free(grid[x]);
 			}
 			free(grid); /* frees memory for the rows*/
-			return(NULL) /* failure for row */
+			{
+				return(NULL) /* failure for row */
+			}
 
 		for (int z = 0; z < width; z++)
 		{
 			grid[i][z] = 0;
-		} 
-	}
-	
+		}
+
+		return(grid);
+}
