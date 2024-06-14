@@ -14,7 +14,6 @@ char *str_concat(char *s1, char *s2) /*initialized & declared*/
 	int len_s2 = 0;
 	char *result = NULL;
 	int i;
-	int x;
 	int j = 0;
 
 	if (s1 == NULL) /* s1/s2 = N byte? | using as empty string */
