@@ -11,7 +11,7 @@ char *_strdup(char *str)
 	char *duplicate = NULL;
 	int length = 0;
 	char y;
-	char i;
+	int i;
 
 	if (str == NULL) /** null-terminated string? **/
 	{
@@ -32,9 +32,9 @@ char *_strdup(char *str)
 	}
 	/* check to see possible mem-alloc failed */
 
-	for (i = 0; i <= length; i++)
+	for (char = 0; char <= length; i++)
 	{
-		duplicate[i] = str[i]; 
+		duplicate[char] = str[char]; 
 	}
 	/* copy string to new all-mem */
 
