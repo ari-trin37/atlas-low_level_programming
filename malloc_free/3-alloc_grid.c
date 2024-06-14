@@ -17,15 +17,15 @@ int **alloc_grid(int width, int height)
 
     grid = (int **)malloc(height * sizeof(int *));
     if (grid == NULL)
-        return NULL; // Memory allocation failed
+        return NULL; /* "check" to see if mem. allocation failed */	
 
-    for (i = 0; i < height; i++)
+    for (i = 0; i < height; i++)  /* makes new memory for rows */
     {
         grid[i] = (int *)malloc(width * sizeof(int));
         if (grid[i] == NULL)
         {
-            // Free previously allocated memory and return NULL on failure
             for (x = 0; x < i; x++)
+
                 free(grid[x]);
             free(grid);
             return NULL;
