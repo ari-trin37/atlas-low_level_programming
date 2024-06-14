@@ -39,7 +39,7 @@ char *str_concat(char *s1, char *s2) /*initialized & declared*/
 	result = malloc((len_s1 + len_s2 + 1) * sizeof(char));
 	if (result == NULL)
 	{
-		return(NULL); /* if failed, returns NULL */
+		return (NULL); /* if failed, returns NULL */
 	}
 
 	for (i = 0; i < len_s1; i++) /* copy contents from both strings */
@@ -56,5 +56,5 @@ char *str_concat(char *s1, char *s2) /*initialized & declared*/
 		result[i + j] = '\0';
 	}
 
-	return result; /* needs to return null, null-termination */
+	return(result); /* needs to return null, null-termination */
 }
