@@ -1,25 +1,26 @@
 #include "main.h"
 /**
  * alloc_grid - returns pointer to 2 dimensional array of int.'s
- * @width: width 
+ * @width: width
  * @heigth: height
  * Return: NULL due to w/h being 0.
- * 
+ *
  **/
 
 int **alloc_grid(int width, int height)
 {
-    int **grid;
-    int i, x, z;
+	int **grid;
+	int i, x, z;
 
-    if (width <= 0 || height <= 0)
-        return NULL;
+	if (width <= 0 || height <= 0)
+        {
+			return (NULL);
+		}
 
     grid = (int **)malloc(height * sizeof(int *));
     if (grid == NULL)
-        return NULL; /* "check" to see if mem. allocation failed */	
-
-    for (i = 0; i < height; i++)  /* makes new memory for rows */
+		return (NULL); /* "check" to see if mem. allocation failed */
+	for (i = 0; i < height; i++) /* makes new memory for rows */
     {
         grid[i] = (int *)malloc(width * sizeof(int));
         if (grid[i] == NULL)
@@ -28,7 +29,7 @@ int **alloc_grid(int width, int height)
 
                 free(grid[x]);
             free(grid);
-            return NULL;
+            return (NULL);
         }
 
         for (z = 0; z < width; z++)
