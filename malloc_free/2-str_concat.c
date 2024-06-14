@@ -10,6 +10,8 @@
 
 char *str_concat(char *s1, char *s2) /*initialized & declared*/
 {
+	int len_s1 = 0;
+	int len_s2 = 0;
 	int i;
 	int x;
 
@@ -23,13 +25,11 @@ char *str_concat(char *s1, char *s2) /*initialized & declared*/
 		s2 = "";
 	}
 
-	int len_s1 = 0; /* declared/initialized var. #1 */
 	while (s1[len_s1] != '/0') /* s1 not equal to null */
 	{
 		len_s1++;
 	}
 
-	int len_s2 = 0;
 	while (s2[len_s2] != '/0')
 	{
 		len_s2++;
