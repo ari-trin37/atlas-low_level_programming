@@ -14,7 +14,7 @@ char *_strdup(char *str)
 
 	if (str == NULL) /** null-terminated string? **/
 	{
-		return(NULL); 
+		return(NULL);
 	}
 
 	while (str[length] != '\0') /* calculating length of string */
@@ -22,7 +22,7 @@ char *_strdup(char *str)
 		 length++;
 	}
 
-	duplicate = malloc((length + 1) * sizeof(char)); 
+	duplicate = malloc((length + 1) * sizeof(char));
 	/* allocate memory 4 duplicate string */
 
 	if (duplicate == NULL)
