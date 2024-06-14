@@ -25,12 +25,12 @@ char *str_concat(char *s1, char *s2) /*initialized & declared*/
 		s2 = "";
 	}
 
-	while (s1[len_s1] != '/0') /* s1 not equal to null */
+	while (s1[len_s1] != '\0') /* s1 not equal to null */
 	{
 		len_s1++;
 	}
 
-	while (s2[len_s2] != '/0')
+	while (s2[len_s2] != '\0')
 	{
 		len_s2++;
 	}
@@ -52,7 +52,7 @@ char *str_concat(char *s1, char *s2) /*initialized & declared*/
 	}
 
 	{
-		result[i + j] = '/0';
+		result[i + j] = '\0';
 	}
 
 	return result; /* needs to return null, null-termination */
