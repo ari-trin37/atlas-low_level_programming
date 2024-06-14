@@ -10,6 +10,9 @@
 
 char *str_concat(char *s1, char *s2) /*initialized & declared*/
 {
+	int i;
+	int x;
+
 	if (s1 == NULL) /* s1/s2 = N byte? | using as empty string */
 	{
 		s1 = "";
@@ -21,39 +24,35 @@ char *str_concat(char *s1, char *s2) /*initialized & declared*/
 	}
 
 	int len_s1 = 0; /* declared/initialized var. #1 */
-	while (s1[length_s1] != '/0') /* s1 not equal to null */
+	while (s1[len_s1] != '/0') /* s1 not equal to null */
 	{
-		length_s1++;
+		len_s1++;
 	}
 
 	int len_s2 = 0;
-	while (s2[length_s2] != '/0')
+	while (s2[len_s2] != '/0')
 	{
 		len_s2++;
 	}
 
-	char *result = (char *)malloc((len_s1 + len_s2 + 1)) * sizeof(char));
+	char *result = (char *)malloc((len_s1 + len_s2 + 1) * sizeof(char));
 	if (result == NULL)
 	{
 		return(NULL); /* if failed, returns NULL */
 	}
 
-	int i; /* copy contents from both strings */
-	
-	for (i = 0; i < len_s1; i++)
+	for (i = 0; i < len_s1; i++) /* copy contents from both strings */
 	{
-		result[i] = s1[i]
+		result[i] = s1[i];
 	}
-
-	int x;
 
 	for (x = 0; x < len_s2; x++)
 	{
-		result{i + j} = s2[j];
+		result[i + j] = s2[j];
 	}
 
 	{
-		result{i + j} = '/0';
+		result[i + j] = '/0';
 	}
 
 	return result; /* needs to return null, null-termination */
