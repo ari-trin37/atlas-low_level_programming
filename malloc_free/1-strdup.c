@@ -33,7 +33,7 @@ char *_strdup(char *str)
 
 	for (i = 0; i <= length; i++)
 	{
-		duplicate[char] = str[char]; 
+		duplicate[i] = str[i];
 	}
 	/* copy string to new all-mem */
 
