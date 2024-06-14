@@ -8,20 +8,22 @@
 
 char *_strdup(char *str)
 {
+	char *duplicate = NULL;
+	int length = 0;
+	char y;
+	char i;
+
 	if (str == NULL) /** null-terminated string? **/
 	{
 		return(NULL); 
 	}
 
-	char *duplicate;
-	char y;
-
-	while (char[length] != '\0') /* calculating length of string */
+	while (str[length] != '\0') /* calculating length of string */
 	{
 		 length++;
 	}
 
-	char *duplicate = malloc((length + 1) * sizeof(char)); 
+	duplicate = malloc((length + 1) * sizeof(char)); 
 	/* allocate memory 4 duplicate string */
 
 	if (duplicate == NULL)
@@ -30,11 +32,9 @@ char *_strdup(char *str)
 	}
 	/* check to see possible mem-alloc failed */
 
-	char i;
-
-	for (y = 0; y <= i; y++)
+	for (i = 0; i <= length; i++)
 	{
-		duplicate[char] = str[char]; 
+		duplicate[i] = str[i]; 
 	}
 	/* copy string to new all-mem */
 
