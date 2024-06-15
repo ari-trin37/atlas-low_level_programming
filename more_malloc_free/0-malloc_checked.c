@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * malloc_checked -creating function that allocates memory
  * @b: represents size of memory block that'll be allocated.
@@ -8,7 +9,6 @@
 
 void *malloc_checked(unsigned int b)
 {
-	int b; /* declaration */
 	void *ptr = malloc(b); /* allocate memory */
 
 	if (!ptr) /* did allocation fail? */
