@@ -14,7 +14,7 @@
 
 		if (min > max)
 		{
-	   		return (NULL);
+		return (NULL);
 		}
 	size = max - min + 1;
 
