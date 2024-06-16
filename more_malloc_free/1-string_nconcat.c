@@ -35,4 +35,4 @@
 	concat[i + j] = s2[j];
 	}
 	concat[i + j] = '\0';
-	return (concat);}
+	return (concat); }
