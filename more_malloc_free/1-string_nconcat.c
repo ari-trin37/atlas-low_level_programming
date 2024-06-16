@@ -21,7 +21,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	unsigned int len1 = strlen(s1);
 	unsigned int len2 = strlen(s2);
 
-	unsigned int concat_len = len1 = ((n >= len_s2) ? len_s2 : n); /* determine actual length */
+	unsigned int concat_len = len1 = ((n >= len2) ? len2 : n); /* determine actual length */
 
 	char *result = (char *)malloc(concat_len + 1); /* +1 for null-terminator */
 	if (result == NULL) /* mem. allocation failure */
