@@ -14,3 +14,9 @@ int main(void)
     int *arr;
     unsigned int i, nmemb = 5, size = sizeof(int);
 }
+ arr = (int *)_calloc(nmemb, size);
+    if (arr == NULL)
+    {
+        printf("Memory allocation failed\n");
+        return 1;
+    }
