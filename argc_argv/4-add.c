@@ -11,7 +11,8 @@ int main(int argc, char *argv[])
         return 0;
     }
 
-    int sum = 0;
+	int num;
+    int sum;
     int i;
 
 	sum = 0;
@@ -26,7 +27,7 @@ int main(int argc, char *argv[])
             j++;
         }
 
-        int num = atoi(argv[i]);
+        num = atoi(argv[i]);
         sum += num;
     }
 
