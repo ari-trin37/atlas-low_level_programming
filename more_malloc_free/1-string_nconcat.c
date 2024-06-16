@@ -14,15 +14,15 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	int s1;
 	int s2;
+	int i;
 	unsigned int;
-	unsigned int = i
 
 	if (s1 == NULL) 
 		s1 = ""; /* empty string */
 	if (s2 == NULL)
 		s2 = ""; /* empty string */
 
-	i len_s1 = strlen(s1);
+	int i len_s1 = strlen(s1);
 	len_s2 = strlen(s2);
 
 	unsigned int concat_len = len_s1 = ((n >= len_s2) ? len_s2 : n); /* determine actual length */
