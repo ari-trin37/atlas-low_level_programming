@@ -1,4 +1,5 @@
 #include "main.h"
+#include "string.h"
 /**
  * string_nconcat - function that links two strings.
  * @s1: 1st string 
