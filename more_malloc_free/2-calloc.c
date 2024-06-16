@@ -21,7 +21,7 @@ void *_calloc(unsigned int nnemb, unsigned int size)
 
 	if (size != 0 && total_size / size != nnemb)
 	{
-		return(NULL);
+		return (NULL);
 	}
 
 	ptr = (char *)malloc(total_size);
@@ -34,5 +34,5 @@ void *_calloc(unsigned int nnemb, unsigned int size)
 	{
 		ptr[i] = 0;
 	}
-	return (void *)ptr;
+	return ((void *)ptr);
 }
