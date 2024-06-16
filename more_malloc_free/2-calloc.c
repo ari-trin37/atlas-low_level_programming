@@ -13,7 +13,7 @@ int main(void)
 {
     int *arr;
     unsigned int i, nmemb = 5, size = sizeof(int);
-}
+
  arr = (int *)_calloc(nmemb, size);
     if (arr == NULL)
     {
@@ -24,3 +24,7 @@ int main(void)
     {
         printf("arr[%u] = %d\n", i, arr[i]);
     }
+	free(arr);
+
+    return 0;
+}
