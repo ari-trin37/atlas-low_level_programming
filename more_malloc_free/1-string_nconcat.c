@@ -26,4 +26,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	char *result = (char *)malloc(concat_len + 1); /* +1 for null-terminator */
 	if (result == NULL) /* mem. allocation failure */
 		return(NULL);
+	
+	strcpy(result, s1);
+
+	strncat(result, s2, n);
+
+	return result;
 }
