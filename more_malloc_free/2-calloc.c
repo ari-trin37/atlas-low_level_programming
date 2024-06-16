@@ -20,3 +20,7 @@ int main(void)
         printf("Memory allocation failed\n");
         return 1;
     }
+	for (i = 0; i < nmemb; i++)
+    {
+        printf("arr[%u] = %d\n", i, arr[i]);
+    }
