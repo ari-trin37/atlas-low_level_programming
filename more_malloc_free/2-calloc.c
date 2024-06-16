@@ -8,22 +8,31 @@
  */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
-
 {
-    int *arr;
-    unsigned int i, nmemb = 5, size = sizeof(int);
+	char *ptr;
+	unsigned int total_size, i;
 
- arr = (int *)_calloc(nmemb, size);
-    if (arr == NULL)
-    {
-        printf("Memory allocation failed\n");
-        return 1;
-    }
-	for (i = 0; i < nmemb; i++)
-    {
-        printf("arr[%u] = %d\n", i, arr[i]);
-    }
-	free(arr);
+	if (mnemb == 0 || size == 0)
+	{
+		return (NULL);
+	}
 
-    return 0;
+	total_size = nmemb * size;
+
+	if (size != 0 && total_size / size != nmemb)
+	{
+		return(NULL);
+	}
+
+	ptr = (char *)malloc(total_size);
+	if (ptr == NULL)
+	{
+		return (NULL);
+	}
+
+	for (i = 0; i < total_size; i++)
+	{
+		ptr[i] = 0;
+	}
+	return (void * ptr);
 }
