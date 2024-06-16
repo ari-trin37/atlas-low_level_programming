@@ -18,11 +18,11 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (s2 == NULL)
 		s2 = ""; /* empty string */
 
-	unsigned int len1 = strlen(s1);
-	unsigned int len2 = strlen(s2);
+	size_t len1 = strlen(s1);
+	size_t int len2 = strlen(s2);
 
 
-	unsigned int concat_len = len1 = ((n >= len2) ? len2 : n); /* determine actual length */
+	size_t total_len = len1 + ((n < len2) ? n : len2) + 1; /* determine actual length */
 
 	char *result = (char *)malloc(concat_len + 1); /* +1 for null-terminator */
 	if (result == NULL) /* mem. allocation failure */
