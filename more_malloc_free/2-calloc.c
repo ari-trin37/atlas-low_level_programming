@@ -8,6 +8,9 @@
  */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
+
+int main(void)
 {
-	example
+    int *arr;
+    unsigned int i, nmemb = 5, size = sizeof(int);
 }
