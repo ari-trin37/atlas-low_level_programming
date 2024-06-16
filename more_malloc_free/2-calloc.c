@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _calloc - allocates memory for an array.
- *  nnemb: variable
+ *  @nnemb: variable
  * @size: is = to nnemb, = to 0
  *
  * Return: returns pointer to allocated memory. or NULL
