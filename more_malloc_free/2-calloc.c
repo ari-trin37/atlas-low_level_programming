@@ -1,13 +1,13 @@
 #include "main.h"
 /**
  * _calloc - allocates memory for an array.
- * @nmemb: variable
- * @size: is = to nmemb, = to 0
+ *  nnemb: variable
+ * @size: is = to nnemb, = to 0
  *
  * Return: returns pointer to allocated memory. or NULL
  */
 
-void *_calloc(unsigned int nmemb, unsigned int size)
+void *_calloc(unsigned int nnemb, unsigned int size)
 {
 	char *ptr;
 	unsigned int total_size, i;
@@ -17,9 +17,9 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		return (NULL);
 	}
 
-	total_size = nmemb * size;
+	total_size = nnemb * size;
 
-	if (size != 0 && total_size / size != nmemb)
+	if (size != 0 && total_size / size != nnemb)
 	{
 		return(NULL);
 	}
