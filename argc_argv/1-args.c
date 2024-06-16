@@ -4,8 +4,10 @@
 */
 
 
-int main(int argc, char *argv[]) /*Suppress unused parameter warning [-Wunused-parameter]*/
+int main(int argc, char *argv[])
 {
-    printf("%d\n", argc - 1);
+    int i;
+    for (i = 0; i < argc; i++)
+    printf("%d\n", argv[i]);
     return 0;
 }
