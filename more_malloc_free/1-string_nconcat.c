@@ -4,12 +4,13 @@
 {
 	unsigned int len1 = 0, len2 = 0, i, j;
 	char *concat;
-	if (s1 == NULL) 
+
+	if (s1 == NULL)
 		s1 = ""; /* empty string */
 	if (s2 == NULL)
 		s2 = ""; /* empty string */
 	while (s1[len1] != '\0')
-    {
+	{
 		len1++;
 	}
 	while (s2[len2] != '\0')
@@ -34,5 +35,4 @@
 	concat[i + j] = s2[j];
 	}
 	concat[i + j] = '\0';
-	return (concat);
-}
+	return (concat);}
