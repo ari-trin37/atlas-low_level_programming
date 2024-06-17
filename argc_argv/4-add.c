@@ -1,7 +1,11 @@
 # include "main.h"
-
-/*
-*/
+/**
+ * 2-args.c - write a program that prints all arguments it receives.
+ * @argc: argument count / int. variable that stores # of arguments passed to program.
+ * @argv: argument vector / array of pointers to arrays of char. objects
+ *
+ * Return: void
+ **/
 
 int main(int argc, char *argv[])
 {
