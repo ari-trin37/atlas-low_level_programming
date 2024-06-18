@@ -10,7 +10,6 @@
 int main(void)
 {
 	print_filename();
-	{
 		return(0);
-	}
 }
+
