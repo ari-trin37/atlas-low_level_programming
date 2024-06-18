@@ -1,15 +1,6 @@
-#include "main.h"
+#ifndef "headerfile.h"
+#define "headerfile.h"
 
-/**
- * 2-args.c - write a program that prints all arguments it receives.
- *
- * Return: void
- **/
+#define SIZE 1024
 
-int main()
-{
-	int array[SIZE]; /* during pre-process, size will be replaced with 1024 */
-	{
-		return(0);
-	}
-}
+#endif
