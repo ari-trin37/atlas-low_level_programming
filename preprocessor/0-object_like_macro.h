@@ -1,4 +1,4 @@
-#ifndef 'headerfile_h'
+#ifndef headerfile_h
 
 #define SIZE 1024
 
