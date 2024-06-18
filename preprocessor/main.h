@@ -5,6 +5,6 @@
 #include <stdlib.h>
 #include <ctype.h>
 
-void print_filename
+void print_filename;
 
 #endif
