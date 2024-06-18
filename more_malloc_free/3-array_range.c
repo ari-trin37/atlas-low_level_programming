@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * malloc_checked - creating function that allocates memory
+ * array_range - creating an array of integers.
  * @min: variable #1 / the min amount of value.
  * @max: variable #2, the max amount of value.
  *
