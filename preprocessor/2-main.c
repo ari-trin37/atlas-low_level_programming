@@ -9,6 +9,6 @@
 
 int main(void)
 {
-		print_filename();
+		print_filename()
 		return(0);
 }
