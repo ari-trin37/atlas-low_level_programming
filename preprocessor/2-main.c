@@ -6,10 +6,11 @@
  * Return: 0
  */
 
-void print_filename(void);
+void print_filename(void)
 	{
 		printf();
 		{
 			return(0);
 		}
 	}
+	
