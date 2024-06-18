@@ -1,16 +1,17 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
- * 
+ * main - function name
  * printf - one of the c programming printing functions
  *
  * Return: 0
  */
 
-int main(void)
+int main()
 {
-	print_filename();
-		return(0);
+	printf("%s\n", __FILE__);
+		{
+			return(0);
+		}
 }
 
