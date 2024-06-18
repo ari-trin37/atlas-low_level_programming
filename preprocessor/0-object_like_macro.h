@@ -1,5 +1,4 @@
-#ifndef "headerfile.h"
-#define "headerfile.h"
+#ifndef "main.h"
 
 #define SIZE 1024
 
