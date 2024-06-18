@@ -9,8 +9,8 @@
 
 int main(void)
 {
-		*print_filename();
-		{
-			return(0);
-		}
+	print_filename();
+	{
+		return(0);
+	}
 }
