@@ -3,12 +3,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* create type def with structure /*
-typedef struct dog_s /* structure is dog_s*/
+/* create type def with structure */
+struct dog /* structure is dog_s */
 {
 	char *name; 
 	float age; 
 	char *owner;
-} dog; 
+};
 
 #endif
