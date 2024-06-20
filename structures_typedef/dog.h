@@ -3,12 +3,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * struct dog - Short description
+ * @name: doggo name
+ * @age: doggo age
+ * @owner: owner name
+ *
+ * Description: unsure of what to put.
+ */
+
 /* create type def with structure */
-struct dog /* structure is dog_s */
+typedef struct dog
 {
-	char *name; 
-	float age; 
+	char *name;
+	float age;
 	char *owner;
-};
+} dog_t;
 
 #endif
