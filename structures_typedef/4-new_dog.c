@@ -1,10 +1,50 @@
 #include "dog.h"
 /**
- * dog_t - defining new type 'dog_t' as new name for type struct dog.
+ * new_dog - function that creates new dog.
+ * @name: dog name // string
+ * @age: age of dog.
+ * @owner: owner name // string
  *
- * Return: doesn't return anything due to void.
+ * Return: 
  */
 
-typedef struct dog dog_t; /* defining dog_t as new name for struct dog */
+dog_t *new_dog(char *name, float age, char *owner)
+{
+	if (name == NULL || owner == NULL || age == NULL)
+	{
+		return(NULL);
+	}
 
-#endif
+	dog_t *newdog = (dog_t *)malloc(sizeof(dog_t)); /* allocates memory for the dog_t structure */
+	if (newDog == NULL)
+	{
+		return(NULL); /* returns NULL if malloc fails */
+	}
+
+	newDog->name = (char *)malloc(strlen(name) + 1); // +1 for null terminator
+    if (newDog->name == NULL) 
+	{
+        free(newDog);
+        {
+			return(NULL); /* returns NULL if malloc fails */
+    	}
+
+	strcpy(newDog->name, name);
+
+    newDog->owner = (char *)malloc(strlen(owner) + 1); /* null terminator (+1) */
+    if (newDog->owner == NULL)
+	{
+        free(newDog->name);
+        free(newDog);
+	{
+		return(NULL); /* returns NULL if malloc fails */
+	}
+
+    }
+    strcpy(newDog->owner, owner);
+
+    newDog->age = age; /* set dog age */
+
+	return(newDog);
+}
+
