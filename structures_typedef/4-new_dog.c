@@ -5,7 +5,7 @@
  * @age: age of dog.
  * @owner: owner name // string
  *
- * Return: 
+ * Return: NULL or 0.
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
@@ -22,7 +22,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 	}
 
 	newDog->name = (char *)malloc(strlen(name) + 1); // +1 for null terminator
-    if (newDog->name == NULL) 
+
+	if (newDog->name == NULL) 
 	{
         free(newDog);
         {
