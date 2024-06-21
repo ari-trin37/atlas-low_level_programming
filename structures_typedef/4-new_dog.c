@@ -18,7 +18,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return(NULL);
 	}
 
-	dog_t *newdog = (dog_t *)malloc(sizeof(dog_t)); /** creates new memory for dog_t struct. */
+	*newdog = (dog_t *)malloc(sizeof(dog_t)); /** creates new memory for dog_t struct. */
 
 	if (newdog == NULL)
 	{
