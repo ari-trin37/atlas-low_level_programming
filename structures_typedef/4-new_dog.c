@@ -11,13 +11,13 @@
 
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	if (name == NULL || owner == NULL)
+	if (name == NULL || owner == NULL) /** checks for null */
 	{
 		return(NULL);
 	}
 
 	dog_t *newdog = (dog_t *)malloc(sizeof(dog_t)); /** creates new memory for dog_t struct. */
-	if (newDog == NULL)
+	if (newdog == NULL)
 	{
 		return(NULL); /** returns null if malloc fails */
 	}
