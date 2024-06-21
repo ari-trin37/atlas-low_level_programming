@@ -15,13 +15,13 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return(NULL);
 	}
 
-	dog_t *newdog = (dog_t *)malloc(sizeof(dog_t)); /* allocates memory for the dog_t structure */
+	dog_t *newdog = (dog_t *)malloc(sizeof(dog_t)); /** creates new memory for dog_t struct. */
 	if (newDog == NULL)
 	{
 		return(NULL); /* returns NULL if malloc fails */
 	}
 
-	newDog->name = (char *)malloc(strlen(name) + 1); // +1 for null terminator
+	newDog->name = (char *)malloc(strlen(name) + 1); /* +1 for null terminator */
 
 	if (newDog->name == NULL) 
 	{
