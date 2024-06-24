@@ -8,50 +8,35 @@
  * Return: return type is void.
  */
 
-void print_name(char *name, void (*f)(char *))
-{
-	void _putchar(char c)
-		{
-			write(1, &c, 1);
-		}
-	char *_strdup(const char *str)
-			size_t len = 0;
-			const char *tmp = str;
-			while (*tmp++)
-		{
-			len++;
-		}
-	char *copy = malloc(len + 1);
-    if (copy == NULL)
-		{
-        	return NULL;
-    	}
-    char *ptr = copy;
-    while (*str)
-		{
-        	*ptr++ = *str++;
-    	}
-    *ptr = '\0';
-    	{
-			return(copy);
-		}
+void _putchar(char c) {
+    write(1, &c, 1);
+}
 
-void _free(char *ptr)
-		{
-    		free(ptr);
-		}
+char *_strdup(const char *str) {
+    size_t len = 0;
+    const char *tmp = str;
+    while (*tmp++) {
+        len++;
+    }
+    char *copy = malloc(len + 1);
+    if (copy == NULL) {
+        return NULL;
+    }
+    char *ptr = copy;
+    while (*str) {
+        *ptr++ = *str++;
+    }
+    *ptr = '\0';
+    return copy;
+}
 
 void print_name(char *name, void (*f)(char)) {
     char *copy = _strdup(name);
-    if (copy == NULL)
-		{
-        	return;
-    	}
-    while (*copy)
-		{
-        	f(*copy++);
-    	}
-    _free(copy);
-
-}
+    if (copy == NULL) {
+        return;
+    }
+    while (*copy) {
+        f(*copy++);
+    }
+    free(copy);
 }
