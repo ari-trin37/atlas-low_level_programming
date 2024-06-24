@@ -33,23 +33,24 @@ void print_name(char *name, void (*f)(char *))
     	}
     *ptr = '\0';
     	{
-		return(copy);
+			return(copy);
 		}
 
 void _free(char *ptr)
-	{
-    free(ptr);
-	}
+		{
+    		free(ptr);
+		}
 
 void print_name(char *name, void (*f)(char)) {
     char *copy = _strdup(name);
     if (copy == NULL)
-	{
-        return;
-    }
+		{
+        	return;
+    	}
     while (*copy)
-	{
-        f(*copy++);
-    }
+		{
+        	f(*copy++);
+    	}
     _free(copy);
+
 }
