@@ -8,8 +8,10 @@
  * Return: return type is void.
  */
 
+char *copy;
+
 void _putchar(char c) {
-    write(1, &c, 1);
+    fwrite(1, &c, 1);
 }
 
 char *_strdup(const char *str) {
@@ -18,7 +20,7 @@ char *_strdup(const char *str) {
     while (*tmp++) {
         len++;
     }
-    char *copy = malloc(len + 1);
+	*copy = malloc(len + 1);
     if (copy == NULL) {
         return NULL;
     }
