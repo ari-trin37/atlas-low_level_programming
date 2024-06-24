@@ -8,7 +8,7 @@ void array_iterator(int *array, size_t size, void (*action)(int));
 int int_index(int *array, int size, int (*cmp)(int));
 
 #include "3-main.c"
-#include "3-op_function.c"
+#include "3-op_functions.c"
 #include "3-get_op_func.c"
 #include "3-calc.h"
 
