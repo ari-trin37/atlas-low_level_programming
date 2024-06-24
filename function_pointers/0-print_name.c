@@ -11,7 +11,7 @@
 char *copy;
 
 void _putchar(char c) {
-    fwrite(1, &c, 1);
+    write(1, &c, 1);
 }
 
 char *_strdup(const char *str) {
