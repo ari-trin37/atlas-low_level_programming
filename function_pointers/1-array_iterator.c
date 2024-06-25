@@ -1,5 +1,4 @@
 #include "function_pointers.h"
-#include <stdio>
 /**
  * @array: a pointer, starts at array
  * @size: size of array.
