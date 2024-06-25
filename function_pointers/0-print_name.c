@@ -13,9 +13,5 @@
 
 void print_name(char *name, void (*f)(char *))
 {
-	while (*name != '0')
-		{
 			(*f)(name);
-			name++;
-		}
 }
