@@ -13,42 +13,42 @@ dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *newdog;
 
-	if (name == NULL || owner == NULL) /** checks for null */
+	if (name == NULL || owner == NULL)
 	{
 		return(NULL);
 	}
 
-	newdog = (dog_t *)malloc(sizeof(dog_t)); /** creates new memory for dog_t struct. */
+	newdog = (dog_t *)malloc(sizeof(dog_t));
 
 	if (newdog == NULL)
 	{
-		return(NULL); /** returns null if malloc fails */
+		return(NULL);
 	}
 
-	newdog->name = (char *)malloc(strlen(name) + 1); /** null terminator (+1) */
+	newdog->name = (char *)malloc(strlen(name) + 1);
 
 	if (newdog->name == NULL)
 	{
         free(newdog);
         {
-			return(NULL); /** returns null if malloc fails */
+			return(NULL);
     	}
 	}
 
 	strcpy(newdog->name, name);
 
-    newDog->owner = (char *)malloc(strlen(owner) + 1); /** null terminator (+1) */
+    newDog->owner = (char *)malloc(strlen(owner) + 1);
     if (newdog->owner == NULL)
 
 			free(newdog->name);
         	free(newdog);
 	{
-		return(NULL); /** returns null if malloc fails */
+		return(NULL);
 	}
 
     strcpy(newdog->owner, owner);
 
-    newdog->age = age; /** dog age set-up */
+    newdog->age = age;
 
 	return(newdog);
 }
